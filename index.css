@@ -35,3 +35,9 @@ body{
     text-align: center;
     padding-top: 30px;
 }
+.header{
+    padding-top: 30px;
+}
+#producttxt, #developmenttxt, #designtxt{
+    display: none;
+}
