@@ -56,3 +56,14 @@ body{
     .col-md-3{
         position: relative;
     }
+    .text{
+        display: none;
+        color: white;
+        position:absolute;
+        bottom: 120px;
+        left: 70px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 36px;
+        font-family: 'Pacifico', cursive;
+        }
