@@ -68,7 +68,7 @@ body{
         font-family: 'Pacifico', cursive;
         }
  .contact{
-        background-image: url('../images/backgrounds/c_image.jpg');
+        background-image: url(./images/backgrounds/c_image\ .JPG);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -81,7 +81,7 @@ body{
         color: white;
              }
 #EMAIL,#NAME,#MESSAGE,#subscribe{
-        background-color:inherit;
+        background-color:transparent;
         color: white;
         border: 1px solid white;
         }
