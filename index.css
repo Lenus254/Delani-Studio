@@ -106,4 +106,13 @@ body{
 #subscribe{
         margin-left: 45%;
         width: 200px;
-        }       
+        }   
+footer{
+        text-align: center;
+        padding-top: 40px;
+        justify-content: space-evenly;
+          }
+footer>p{
+        font-family: 'Gabriela', serif;
+        font-style: oblique;
+          }            
