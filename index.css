@@ -68,7 +68,7 @@ body{
         font-family: 'Pacifico', cursive;
         }
  .contact{
-        background-image: url(./images/backgrounds/c_image\ .JPG);
+        background-image: url(./images/backgrounds/c_image.jpg);
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -89,18 +89,18 @@ body{
         color:white;
         }
 #NAME{
-        width: 25%;
-        margin-left: 20%;
+        width: 18%;
+        margin-left: 28%;
         }
 #EMAIL{
-        width: 25%;
-        margin-left: 150px;
+        width: 18%;
+        margin-left: 130px;
         }
 #MESSAGE{
-        margin-left: 20%;
-        width: 58.5%;
+        margin-left: 30%;
+        width: 40%;
         margin-top: 15px;
-        height: 300px;
+        height: 250px;
         overflow: none;
         }
 #subscribe{
@@ -115,4 +115,79 @@ footer{
 footer>p{
         font-family: 'Gabriela', serif;
         font-style: oblique;
-          }            
+          }   
+@media only screen and (max-width: 425px){
+#NAME,#EMAIL{
+         width: 70PX;
+         display: inline;
+         margin-left: 20PX;
+            }
+.contact{
+   width: 400px;
+   margin-left: 20px;
+         }
+#MESSAGE{
+    height: 70PX;
+        }
+.form-inline{
+     margin-left: 100px;
+            }
+#subscribe{
+    width: 150px;
+    margin-left: 120px;
+              }
+#portfolio1,#portfolio2,#portfolio3,#portfolio4,#portfolio5,#portfolio6,#portfolio7,#portfolio8{
+     width: 100%;
+     height: 100%;
+     top: 70px;
+     left: -30px;
+     font-size: 20px;
+                }
+ .col-md-3 img{
+     width:200px;
+     margin: 20px;
+                }
+.services{
+     width: 360px;
+     margin-left: 20px;
+         }
+.section1{
+     margin-left: 20px;
+         }
+@media only screen and (max-width: 755px){
+#portfolio1,#portfolio2,#portfolio3,#portfolio4,#portfolio5,#portfolio6,#portfolio7,#portfolio8{
+      width: 100%;
+      height: 100%;
+      top: 20px;
+      left: 16px;
+      padding-top: 17%;
+                  }
+.col-md-3 img{
+      width:400px;
+      margin: 20px;
+             }
+ #portfolio{
+      margin: left 10px;;
+      margin-right: 10px; 
+            }
+            }
+@media only screen and (min-width: 625px){
+ #portfolio1,#portfolio2,#portfolio3,#portfolio4,#portfolio5,#portfolio6,#portfolio7,#portfolio8{
+        width: 100%;
+        height: 100%;
+        top: 20px;
+        left: 20px;
+        padding-top:40px; 
+        font-size: 26px;
+                  }
+.col-md-3 img{
+        width: 400px;
+        margin: 20px;
+                  }
+#portfolio{
+        margin-left:5px;
+        margin-right: 15px; 
+                  }
+                }
+                
+              }                  
